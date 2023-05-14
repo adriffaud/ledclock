@@ -160,7 +160,7 @@ void loop()
   sprintf(time, "%02d:%02d", France.hour(), France.minute());
 
   display.clearDisplay();
-  text(1, 1, time, myGREEN);
-  text(1, 9, date, myBLUE);
+  text(1, 1, time, myBLUE);
+  text(1, 9, date, myRED);
   delay(1000);
 }
